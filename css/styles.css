@@ -1,0 +1,95 @@
+h1{
+    color: white;
+    font-size: 75px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: url(../jpg/header.JPG);
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+    margin: -10px -10px 0px -10px ;
+    padding: 50px;
+    height: 200px;
+    display: flex;
+    justify-content: left;
+}
+
+h3{ 
+    padding: 2%;
+    width: 100%;
+    margin: -10px -10px 0px -10px;
+    display: flex;
+    justify-content: left;
+    position: absolute;
+}
+
+#sm{
+    background-color: #E2E2B6;
+}
+
+#s1{
+    background-color: #6DC5D1;
+}
+#s2{
+    background-color: #56a6b3;
+}
+#s3{
+    background-color: #256975;
+}
+
+p.text{
+    text-align: left;
+    padding: 60px;
+    width: 100%;
+    margin: -10px -10px 0px -10px;
+}
+
+.nav-link{
+    display: inline-block;
+    background-color: #03346E;
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+.nav-link:hover{
+    background: #E2E2B6;
+    color: #021526;
+}
+
+nav{
+    background-color: #03346E;
+    padding: 10px 30px;
+    margin: -10px -10px 0px -10px ;
+    height: 70px;
+    display: flex;
+    justify-content:flex-end;
+}
+
+footer {
+    background-color: #03346E;
+    color: #fff;
+    position: absolute;
+    position: fixed;
+    bottom: 0;
+    width: 99%;
+    height: 50px;
+    margin: -10px -10px 0px -10px ;
+    padding: 10px;
+}
+
+#enlace1{
+    color: #021526;
+    font-weight: bold;
+}
+
+button{
+    background-color: #6DC5D1;
+    border:0px;
+        width:80px;
+        height:50px;
+}
+button:hover{
+    background-color: #56a6b3;
+}
+button:active{
+    background-color:#256975;
+}
